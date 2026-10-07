@@ -1,1 +1,176 @@
-<html lang='en'><head><script src='https://cdn.tailwindcss.com'></script><title>osrsbot.app</title></head><body class='bg-gray-900 text-white p-8'><h1>osrsbot.app Provisioning...</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSRS Automate - Premium Botting Tools</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0f19; /* Very dark blue/grey for gaming theme */
+            color: #f1f5f9;
+        }
+        h1, h2, h3, .osrs-font {
+            font-family: 'Cinzel', serif;
+            color: #d4af37; /* Gold color typical of OSRS */
+        }
+        .glass {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, #d4af37 0%, #aa8c2c 100%);
+            color: #0b0f19;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-900 text-slate-200 selection:bg-yellow-500 selection:text-slate-900">
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b-0 border-yellow-600/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-yellow-500 to-yellow-700 flex items-center justify-center">
+                        <span class="font-bold text-slate-900 osrs-font text-xl">O</span>
+                    </div>
+                    <span class="text-2xl font-bold osrs-font tracking-wider">Automate<span class="text-white">OSRS</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#features" class="hover:text-yellow-500 transition-colors px-3 py-2 rounded-md font-medium text-sm">Features</a>
+                        <a href="#pricing" class="hover:text-yellow-500 transition-colors px-3 py-2 rounded-md font-medium text-sm">Pricing</a>
+                        <a href="#about" class="hover:text-yellow-500 transition-colors px-3 py-2 rounded-md font-medium text-sm">About</a>
+                        <a href="#pricing" class="btn-gold px-5 py-2 rounded-md font-bold uppercase tracking-wide text-sm shadow-lg shadow-yellow-600/20">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+        <div class="relative pt-32 pb-20 sm:pt-40 sm:pb-24 overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/95 to-[#0b0f19] z-10"></div>
+                <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center blur-sm opacity-30"></div>
+            </div>
+            
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 drop-shadow-2xl">
+                    <span class="block text-white">Next-Gen</span>
+                    <span class="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600">OSRS Automation</span>
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-xl text-slate-300">
+                    Undetectable, efficient, and flawlessly engineered. Take your grinding to the next level with our premium suite of automated tools.
+                </p>
+                <div class="mt-10 flex justify-center gap-4">
+                    <a href="#pricing" class="btn-gold px-8 py-4 rounded-lg font-bold uppercase tracking-wider text-lg">Purchase Access</a>
+                    <a href="#features" class="px-8 py-4 rounded-lg font-bold border border-yellow-600/50 hover:bg-yellow-600/10 transition-colors text-yellow-500 uppercase tracking-wider">View Features</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div id="features" class="py-20 bg-[#0b0f19]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose Us?</h2>
+                    <div class="w-24 h-1 bg-yellow-500 mx-auto rounded-full"></div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="glass p-8 rounded-2xl border border-yellow-600/20 hover:border-yellow-500/50 transition-colors group">
+                        <div class="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Anti-Ban Protection</h3>
+                        <p class="text-slate-400">Our advanced human-mimicking algorithms ensure your accounts stay safe and undetected during long runs.</p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="glass p-8 rounded-2xl border border-yellow-600/20 hover:border-yellow-500/50 transition-colors group">
+                        <div class="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Flawless Execution</h3>
+                        <p class="text-slate-400">Written in efficient compiled languages, our scripts perform complex tasks with 0% error rates.</p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="glass p-8 rounded-2xl border border-yellow-600/20 hover:border-yellow-500/50 transition-colors group">
+                        <div class="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">Auto-Updating</h3>
+                        <p class="text-slate-400">When the game updates, we update. Our hooks are dynamically resolved to minimize downtime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Checkout / Pricing Section -->
+        <div id="pricing" class="py-24 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f19] to-slate-900/50 z-0"></div>
+            <div class="max-w-4xl mx-auto px-4 relative z-10">
+                <div class="glass rounded-3xl p-8 md:p-12 border border-yellow-600/30 text-center">
+                    <h2 class="text-4xl font-bold mb-6">Lifetime Access</h2>
+                    <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">Get full access to all premium scripts, client updates, and 24/7 priority support.</p>
+                    
+                    <div class="text-5xl font-bold text-white mb-2">$49.99<span class="text-xl text-slate-400 font-normal">/lifetime</span></div>
+                    
+                    <!-- PayPal SDK Container -->
+                    <div class="mt-10 max-w-md mx-auto bg-white/5 p-6 rounded-2xl border border-white/10">
+                        <h3 class="text-lg font-medium text-slate-200 mb-4 font-sans">Secure Checkout</h3>
+                        <div id="paypal-button-container"></div>
+                        <script>
+                            paypal.Buttons({
+                                style: {
+                                    layout: 'vertical',
+                                    color:  'gold',
+                                    shape:  'rect',
+                                    label:  'paypal'
+                                },
+                                createOrder: function(data, actions) {
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '49.99'
+                                            }
+                                        }]
+                                    });
+                                },
+                                onApprove: function(data, actions) {
+                                    return actions.order.capture().then(function(details) {
+                                        alert('Transaction completed by ' + details.payer.name.given_name + '! Welcome to AutomateOSRS.');
+                                    });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-yellow-600/20 bg-[#0b0f19] pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-slate-500 mb-4">&copy; 2026 AutomateOSRS. All rights reserved.</p>
+            <p class="text-xs text-slate-700 max-w-3xl mx-auto">
+                Not affiliated with Jagex Ltd. Use at your own risk. By purchasing, you agree to our Terms of Service.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
